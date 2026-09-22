@@ -143,23 +143,8 @@ section {
 }
 
 @media (max-width: 640px) {
-  .nav-inner {
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-block: 12px;
-  }
-
-  .nav-brand {
-    margin-right: 0;
-    width: 100%;
-    text-align: center;
-  }
-
-  .nav-links {
-    order: 3;
-    width: 100%;
-    justify-content: center;
-    flex-wrap: wrap;
+  .nav {
+    display: none;
   }
 }
 
