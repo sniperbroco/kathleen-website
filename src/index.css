@@ -1,0 +1,79 @@
+:root {
+  --coral: #e8734a;
+  --coral-dark: #c9532e;
+  --coral-tint: #fbe3d6;
+  --gold: #e3a857;
+  --gold-tint: #f7ecd9;
+  --sage: #6f9a72;
+  --sage-tint: #e4ede2;
+
+  --bg: #f5f5fb;
+  --blush: #ecebf7;
+  --paper: #ffffff;
+  --border: #e2e1ef;
+  --text: #33324a;
+  --text-muted: #757493;
+  --heading-color: #1e1d33;
+
+  --red: #c0392b;
+  --yellow: #b7862a;
+  --green: #4f7a4d;
+  --blue: #4a7ab0;
+  --purple: #8a5fa8;
+  --gray: #757493;
+
+  --shadow: 0 12px 28px rgba(51, 50, 74, 0.12);
+
+  --sans: 'Manrope', system-ui, 'Segoe UI', Roboto, sans-serif;
+  --display: 'Manrope', system-ui, 'Segoe UI', Roboto, sans-serif;
+
+  font: 17px/1.65 var(--sans);
+  color-scheme: light;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--display);
+  font-weight: 800;
+  color: var(--heading-color);
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--coral-dark);
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+}
