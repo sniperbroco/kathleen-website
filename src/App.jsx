@@ -13,7 +13,6 @@ import FileOrgDemo from './components/caseStudies/FileOrgDemo'
 import TaskDemo from './components/caseStudies/TaskDemo'
 import SupportDemo from './components/caseStudies/SupportDemo'
 import SopDemo from './components/caseStudies/SopDemo'
-import AutomationDemo from './components/caseStudies/AutomationDemo'
 import { caseStudies } from './content'
 import './App.css'
 
@@ -27,7 +26,6 @@ const DEMOS = {
   tasks: TaskDemo,
   support: SupportDemo,
   sop: SopDemo,
-  automation: AutomationDemo,
 }
 
 function App() {
@@ -55,7 +53,7 @@ function App() {
           <WorkOverview items={items} />
 
           <div className="case-study-list">
-            {items.map((cs, i) => (
+            {items.map((cs) => (
               <CaseStudy
                 key={cs.id}
                 id={cs.id}
@@ -68,8 +66,6 @@ function App() {
                 result={cs.result}
                 tools={cs.tools}
                 accent={cs.accent}
-                reverse={i % 2 === 1}
-                defaultOpen={i === 0}
               >
                 <cs.Demo />
               </CaseStudy>
