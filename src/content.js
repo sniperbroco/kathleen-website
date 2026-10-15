@@ -49,7 +49,7 @@ export const tools = {
     'Slack',
     'Notion',
   ],
-  learning: ['Notion', 'Slack', 'CRM', 'Zapier', 'ClickUp', 'Asana', 'HubSpot', 'Claude'],
+  learning: ['CRM', 'HubSpot', 'Claude'],
 }
 
 export const caseStudies = [
